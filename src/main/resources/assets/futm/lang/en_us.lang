@@ -1,7 +1,9 @@
 //Items
-item.hallow_ingot.name=Hallow Ingot
-item.curse_ingot.name=Curse Ingot
+item.hallow_shard.name=Hallow Shard
+item.curse_shard.name=Curse Shard
 
 //Blocks
 tile.hallow_ore_block.name=The Hallow
 tile.curse_ore_block.name=The Curse
+tile.hallow_block.name=Hallow Block
+tile.curse_block.name=Curse Block

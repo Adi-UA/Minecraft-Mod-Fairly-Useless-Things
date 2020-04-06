@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HH",
+    "HH"
+  ],
+  "key": {
+    "H": {
+      "item": "futm:hallow_shard"
+    }
+  },
+  "result": {
+    "item": "futm:hallow_block",
+    "count": 1
+  }
+}

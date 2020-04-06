@@ -15,31 +15,33 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
-public class HallowOre extends BlockBase implements IHasModel {
+public class CurseBlock extends BlockBase implements IHasModel {
 
-	public HallowOre(String name, Material material) {
-		super(name, material);
-		this.setSoundType(SoundType.GLASS);
+	public CurseBlock(String name, Material material) {
+		super(name, material);	
+		this.setSoundType(SoundType.ANVIL);
 		this.setHardness(50F);
-		this.setResistance(7000);
+		this.setResistance(8000);
 		this.setHarvestLevel("pickaxe", 3);
-		this.setLightLevel(1.0F);
-
 	}
-
+	
+	
 	@Override
-	/**
-	 * Returns the quantity of items to drop on block destruction.
-	 */
-	public int quantityDropped(Random random) {
-		return 2;
-	}
-
+    /**
+     * Returns the quantity of items to drop on block destruction.
+     */
+    public int quantityDropped(Random random)
+    {
+        return 1;
+    }
+	
 	@Override
-	/**
-	 * Get the Item that this Block should drop when harvested.
-	 */
-	public Item getItemDropped(IBlockState state, Random rand, int fortune) {
-		return ModItems.HALLOW_SHARD;
-	}
+    /**
+     * Get the Item that this Block should drop when harvested.
+     */
+    public Item getItemDropped(IBlockState state, Random rand, int fortune)
+    {
+        return Item.getItemFromBlock(this);
+    }
+
 }
