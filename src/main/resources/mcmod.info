@@ -1,0 +1,16 @@
+[
+{
+  "modid": "futm",
+  "name": "Fairly Useless Things",
+  "description": "This is fairly useless because it is a very WIP mod.",
+  "version": "0.1",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Adi-UA"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

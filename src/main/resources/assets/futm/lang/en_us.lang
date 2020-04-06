@@ -1,0 +1,7 @@
+//Items
+item.hallow_ingot.name=Hallow Ingot
+item.curse_ingot.name=Curse Ingot
+
+//Blocks
+tile.hallow_ore_block.name=The Hallow
+tile.curse_ore_block.name=The Curse
