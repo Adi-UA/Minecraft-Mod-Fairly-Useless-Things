@@ -1,6 +1,6 @@
 {
    "parent": "item/generated",
    "textures": {
-       "layer0": "futm:items/hallow_ingot"
+       "layer0": "futm:items/hallow_shard"
    }
 }

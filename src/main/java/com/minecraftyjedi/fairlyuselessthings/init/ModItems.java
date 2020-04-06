@@ -11,6 +11,6 @@ public class ModItems {
 	
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	
-	public static final Item HALLOW_INGOT = new ItemBase("hallow_ingot");
-	public static final Item CURSE_INGOT = new ItemBase("curse_ingot");
+	public static final Item HALLOW_SHARD = new ItemBase("hallow_shard");
+	public static final Item CURSE_SHARD = new ItemBase("curse_shard");
 }
