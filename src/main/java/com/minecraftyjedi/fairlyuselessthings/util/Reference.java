@@ -1,5 +1,9 @@
 package com.minecraftyjedi.fairlyuselessthings.util;
 
+/**
+ * Use the static variables in this class when possible to refer to specific mod
+ * Information. DO NOT change the variables in this class at random.
+ */
 public class Reference {
 	public static final String MOD_ID = "futm";
 	public static final String NAME = "Fairly Useless Things";

@@ -35,6 +35,6 @@ public class HallowOre extends BlockBase implements IHasModel {
 	 * Get the Item that this Block should drop when harvested.
 	 */
 	public Item getItemDropped(IBlockState state, Random rand, int fortune) {
-		return ModItems.HALLOW_SHARD;
+		return ModItems.HALLOW_SHARD; // This block is an ore, so it drops the shard when broken
 	}
 }

@@ -11,6 +11,11 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
+/**
+ * This is the mod's main entry point. Another relevant entry point is the
+ * RegistryHandler class. This class will only rarely need to be modified, if at
+ * all.
+ */
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
 public class Main {
 
@@ -19,6 +24,8 @@ public class Main {
 
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
 	public static CommonProxy proxy;
+
+	// Handlers for various stages of initialization.
 
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event) {
