@@ -1,0 +1,17 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "futm:curse_block"
+    }
+    ],
+
+    "result": 
+    {
+        "item": "futm:curse_shard",
+        "count": 3
+    }
+}

@@ -2,18 +2,12 @@ package com.minecraftyjedi.fairlyuselessthings.blocks;
 
 import java.util.Random;
 
-import com.minecraftyjedi.fairlyuselessthings.Main;
-import com.minecraftyjedi.fairlyuselessthings.init.ModBlocks;
-import com.minecraftyjedi.fairlyuselessthings.init.ModItems;
 import com.minecraftyjedi.fairlyuselessthings.util.IHasModel;
 
-import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemBlock;
 
 public class CurseBlock extends BlockBase implements IHasModel {
 
@@ -23,6 +17,7 @@ public class CurseBlock extends BlockBase implements IHasModel {
 		this.setHardness(50F);
 		this.setResistance(8000);
 		this.setHarvestLevel("pickaxe", 3);
+		this.setLightLevel(0.6F);
 	}
 	
 	

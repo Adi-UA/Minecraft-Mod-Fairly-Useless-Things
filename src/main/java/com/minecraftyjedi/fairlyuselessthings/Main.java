@@ -29,7 +29,7 @@ public class Main {
 	public static void init(FMLInitializationEvent event) {
 
 	}
-	
+
 	@EventHandler
 	public static void PostInit(FMLPostInitializationEvent event) {
 

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OC ",
+        "CO ",
+        " O "
+    ],
+    "key": {
+        "O": {
+            "item": "minecraft:obsidian"
+        },
+        "C": {
+            "item": "futm:curse_shard"
+        }
+    },
+    "result": {
+    "item": "futm:cursed_axe",
+    "count": 1
+  }
+}
