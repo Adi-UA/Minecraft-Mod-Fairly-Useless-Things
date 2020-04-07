@@ -7,3 +7,11 @@ tile.hallow_ore_block.name=The Hallow
 tile.curse_ore_block.name=The Curse
 tile.hallow_block.name=Hallow Block
 tile.curse_block.name=Curse Block
+
+//Tools
+item.hallowed_sword.name=Hallowed Sword
+item.cursed_sword.name=Cursed Sword
+item.hallowed_pickaxe.name=Hallowed Pickaxe
+item.cursed_pickaxe.name=Cursed Pickaxe
+item.hallowed_axe.name=Hallowed Axe
+item.cursed_axe.name=Cursed Axe

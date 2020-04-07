@@ -1,0 +1,17 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "futm:hallow_block"
+    }
+    ],
+
+    "result": 
+    {
+        "item": "futm:hallow_shard",
+        "count": 3
+    }
+}

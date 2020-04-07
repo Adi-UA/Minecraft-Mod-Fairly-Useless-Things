@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "HHH",
+        " O ",
+        " O "
+    ],
+    "key": {
+        "H": {
+            "item": "futm:hallow_shard"
+        },
+        "O": {
+            "item": "minecraft:obsidian"
+        }
+    },
+    "result": {
+    "item": "futm:hallowed_pickaxe",
+    "count": 1
+  }
+}

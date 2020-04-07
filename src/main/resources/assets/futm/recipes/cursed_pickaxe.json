@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        " O ",
+        " O "
+    ],
+    "key": {
+        "C": {
+            "item": "futm:curse_shard"
+        },
+        "O": {
+            "item": "minecraft:obsidian"
+        }
+    },
+    "result": {
+    "item": "futm:cursed_pickaxe",
+    "count": 1
+  }
+}

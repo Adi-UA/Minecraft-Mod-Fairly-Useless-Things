@@ -1,24 +1,24 @@
-package com.minecraftyjedi.fairlyuselessthings.items;
+package com.minecraftyjedi.fairlyuselessthings.items.tools;
 
 import com.minecraftyjedi.fairlyuselessthings.Main;
 import com.minecraftyjedi.fairlyuselessthings.init.ModItems;
 import com.minecraftyjedi.fairlyuselessthings.util.IHasModel;
 
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
+import net.minecraft.item.ItemSword;
 
 /**
- * This class represents a basic item which can be used for this mod. It is not
- * very specific, so extending this class while making unique items is the ideal
- * approach.
+ * This class represents a basic swords which can be used for this mod. It is
+ * not very specific, so extending this class while making unique swords is the
+ * ideal approach.
  */
-public class ItemBase extends Item implements IHasModel {
+public class ToolSword extends ItemSword implements IHasModel {
+	public ToolSword(String name, ToolMaterial material) {
 
-	public ItemBase(String name) {
-
+		super(material);
 		this.setUnlocalizedName(name);
 		this.setRegistryName(name);
-		this.setCreativeTab(CreativeTabs.MATERIALS);
+		this.setCreativeTab(CreativeTabs.COMBAT);
 
 		ModItems.ITEMS.add(this);
 	}
