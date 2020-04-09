@@ -27,7 +27,7 @@ public class HallowOre extends BlockBase implements IHasModel {
 	 * Returns the quantity of items to drop on block destruction.
 	 */
 	public int quantityDropped(Random random) {
-		return 2;
+		return (int) (Math.random() * 3) + 1;
 	}
 
 	@Override
