@@ -31,7 +31,7 @@ public class Main {
 
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event) {
-		GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
+		GameRegistry.registerWorldGenerator(new ModWorldGen(), 3); // Generates the mod's ores
 	}
 
 	@EventHandler
