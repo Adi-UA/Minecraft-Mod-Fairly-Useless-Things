@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "HHH",
+        "H H",
+        "H H"
+    ],
+    "key": {
+        "H": {
+            "item": "futm:hallow_shard"
+        }
+    },
+    "result": {
+    "item": "futm:hallowed_leggings",
+    "count": 1
+  }
+}
