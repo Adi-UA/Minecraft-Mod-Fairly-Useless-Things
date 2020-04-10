@@ -14,21 +14,39 @@ import net.minecraft.world.gen.feature.WorldGenerator;
 import net.minecraft.world.gen.structure.template.Template;
 import net.minecraft.world.gen.structure.template.TemplateManager;
 
+/**
+ * This class generates structures from .nbt files. The name passed into the
+ * construuctor must match the name of the .nbt representing the structure.
+ *
+ */
 public class WorldGenStructure extends WorldGenerator implements IStructure {
 
 	public String structureName;
 
+	/**
+	 * Constructor
+	 * 
+	 * @param name - The name of the structure as used in the nbt filename.
+	 */
 	public WorldGenStructure(String name) {
 
 		this.structureName = name;
 	}
 
+	/**
+	 * This method generates the structure stored in the current instance in the
+	 * world.
+	 */
 	@Override
 	public boolean generate(World worldIn, Random rand, BlockPos position) {
 		this.generateStructure(worldIn, position);
 		return true;
 	}
 
+	/**
+	 * This method does the actual work of locating the .nbt file and then using
+	 * that to add the blocks for that structure into the world.
+	 */
 	public void generateStructure(World world, BlockPos pos) {
 
 		MinecraftServer mcServer = world.getMinecraftServer();
