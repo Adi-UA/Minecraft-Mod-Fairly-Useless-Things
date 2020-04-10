@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "C C",
+        "CCC",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "item": "futm:curse_shard"
+        }
+    },
+    "result": {
+    "item": "futm:cursed_chestplate",
+    "count": 1
+  }
+}

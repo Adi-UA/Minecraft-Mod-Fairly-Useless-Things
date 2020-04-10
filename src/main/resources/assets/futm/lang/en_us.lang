@@ -15,3 +15,12 @@ item.hallowed_pickaxe.name=Hallowed Pickaxe
 item.cursed_pickaxe.name=Cursed Pickaxe
 item.hallowed_axe.name=Hallowed Axe
 item.cursed_axe.name=Cursed Axe
+
+//Armor
+item.hallowed_boots.name=Hallowed Boots
+item.cursed_chestplate.name=Cursed Chestplate
+item.hallowed_leggings.name=Hallowed Leggings
+item.cursed_boots.name=Cursed Boots
+item.hallowed_chestplate.name=Hallowed Chestplate
+item.cursed_leggings.name=Cursed Leggings
+
