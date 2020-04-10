@@ -69,7 +69,7 @@ public class ModWorldGen implements IWorldGenerator {
 				BiomePlains.class, BiomeOcean.class);
 		this.generateStructure(STAR, world, random, chunkX * 16, chunkZ * 16, 150, 155, 135, BiomeDesert.class,
 				BiomePlains.class, BiomeOcean.class, BiomeBeach.class);
-		this.generateStructure(CURSED_ALTAR, world, random, chunkX * 16, chunkZ * 16, 6, 230, 25, BiomeDesert.class,
+		this.generateStructure(CURSED_ALTAR, world, random, chunkX * 16, chunkZ * 16, 6, 30, 230, BiomeDesert.class,
 				BiomePlains.class, BiomeOcean.class, BiomeRiver.class, BiomeSnow.class);
 
 	}
